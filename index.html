@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio de Imágenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Compra y Venta de Imágenes</h1>
+
+    <!-- Sección para subir imágenes -->
+    <section id="upload-section">
+        <h2>Sube tu Imagen</h2>
+        <input type="file" id="imageUpload" accept="image/*">
+        <input type="text" id="imagePrice" placeholder="Precio en WLD">
+        <button id="uploadButton">Subir Imagen</button>
+    </section>
+
+    <!-- Sección de la galería de imágenes -->
+    <section id="gallery">
+        <h2>Imágenes Disponibles</h2>
+        <div id="imagesContainer"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
